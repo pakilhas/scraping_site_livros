@@ -18,7 +18,7 @@ driver.get(url)
 # meu navegador está fechando, deixei por enquanto até resolver
 time.sleep(30) 
 
-
+#loop definindo o começo em 58 pulando de 2 em 2 até o 95
 elementos_a = driver.find_elements(By.TAG_NAME, 'a')
 for i in range(58, 95, 2):
     if i < len(elementos_a):
